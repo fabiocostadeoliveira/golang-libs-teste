@@ -1,3 +1,3 @@
-module github.com/fabiocostadeoliviera/golang-libs-teste
+module github.com/fabiocostadeoliveira/golang-libs-teste
 
 go 1.18
