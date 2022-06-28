@@ -1,0 +1,14 @@
+package path
+
+import (
+	"fmt"
+	"os"
+)
+
+func GetCurrentPath() string {
+	path, err := os.Getwd()
+	if err != nil {
+		fmt.Println("erro ao tentar retornar o currentPath", err.Error())
+	}
+	return path
+}
